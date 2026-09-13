@@ -28,12 +28,12 @@ log, idempotent write keys, and a FastAPI app factory with a rate limit.
 
 ## Used by
 
-| Project | What it builds on top |
-|---|---|
-| [inbox-to-actions](https://github.com/AbuBaker91-hub/inbox-to-actions) | Router + audit + idempotency for email → CRM writes |
-| [docchat](https://github.com/AbuBaker91-hub/docchat) | vectorstore hybrid search + citation verification |
-| [safesql](https://github.com/AbuBaker91-hub/safesql) | Router + audit around a SQL guard |
-| [shopsage](https://github.com/AbuBaker91-hub/shopsage) | vectorstore + Router for catalog-grounded answers |
+| Project | What it builds on top | Live demo |
+|---|---|---|
+| [inbox-to-actions](https://github.com/AbuBaker91-hub/inbox-to-actions) | Router + audit + idempotency for email → CRM writes | [try it](https://inbox-to-actions.vercel.app) |
+| [docchat](https://github.com/AbuBaker91-hub/docchat) | vectorstore hybrid search + citation verification | [try it](https://docchat-mu-three.vercel.app) |
+| [safesql](https://github.com/AbuBaker91-hub/safesql) | Router + audit around a SQL guard | [try it](https://safesql.vercel.app) |
+| [shopsage](https://github.com/AbuBaker91-hub/shopsage) | vectorstore + Router for catalog-grounded answers | [try it](https://shopsage-two.vercel.app) |
 
 ## Key behaviors
 
